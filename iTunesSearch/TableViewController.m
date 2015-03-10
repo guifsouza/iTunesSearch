@@ -81,7 +81,7 @@
     Filme *filme = [midias objectAtIndex:indexPath.row];
     
     [celula.nome setText:filme.nome];
-    [celula.tipo setText:[NSString stringWithFormat:@"Filme por %@ (%@)", filme.artista, filme.pais]];
+    [celula.tipo setText:[NSString stringWithFormat:@"%@ %@ (%@)", NSLocalizedString(@"filme", nil), filme.artista, filme.pais]];
     
     return celula;
 }

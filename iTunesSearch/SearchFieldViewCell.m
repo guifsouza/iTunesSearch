@@ -12,7 +12,8 @@
 @implementation SearchFieldViewCell
 
 - (void)awakeFromNib {
-    // Initialization code
+    
+    self.searchField.placeholder = NSLocalizedString(@"pesquisa", nil);
     
 }
 

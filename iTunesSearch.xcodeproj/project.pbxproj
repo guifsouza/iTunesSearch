@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		257E65B71AAF734B00191995 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 257E65B91AAF734B00191995 /* Localizable.strings */; };
 		25DF3B0B1AAF3143001D89BD /* SearchFieldViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 25DF3B091AAF3143001D89BD /* SearchFieldViewCell.m */; };
 		25DF3B0C1AAF3143001D89BD /* SearchFieldViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25DF3B0A1AAF3143001D89BD /* SearchFieldViewCell.xib */; };
 		92C21CB61AAE757A0052ABE6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 92C21CB51AAE757A0052ABE6 /* main.m */; };
@@ -32,6 +33,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		257E65B81AAF734B00191995 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		257E65BA1AAF735D00191995 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		257E65BB1AAF737700191995 /* pt */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pt; path = pt.lproj/Localizable.strings; sourceTree = "<group>"; };
 		25DF3B081AAF3143001D89BD /* SearchFieldViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchFieldViewCell.h; sourceTree = "<group>"; };
 		25DF3B091AAF3143001D89BD /* SearchFieldViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchFieldViewCell.m; sourceTree = "<group>"; };
 		25DF3B0A1AAF3143001D89BD /* SearchFieldViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SearchFieldViewCell.xib; sourceTree = "<group>"; };
@@ -77,6 +81,7 @@
 		92C21CA71AAE757A0052ABE6 = {
 			isa = PBXGroup;
 			children = (
+				257E65B91AAF734B00191995 /* Localizable.strings */,
 				92C21CB21AAE757A0052ABE6 /* iTunesSearch */,
 				92C21CCC1AAE757A0052ABE6 /* iTunesSearchTests */,
 				92C21CB11AAE757A0052ABE6 /* Products */,
@@ -221,6 +226,8 @@
 			knownRegions = (
 				en,
 				Base,
+				fr,
+				pt,
 			);
 			mainGroup = 92C21CA71AAE757A0052ABE6;
 			productRefGroup = 92C21CB11AAE757A0052ABE6 /* Products */;
@@ -238,6 +245,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				257E65B71AAF734B00191995 /* Localizable.strings in Resources */,
 				92C21CC11AAE757A0052ABE6 /* Images.xcassets in Resources */,
 				25DF3B0C1AAF3143001D89BD /* SearchFieldViewCell.xib in Resources */,
 				92C21CE21AAE76930052ABE6 /* TableViewCell.xib in Resources */,
@@ -286,6 +294,19 @@
 			targetProxy = 92C21CCA1AAE757A0052ABE6 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		257E65B91AAF734B00191995 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				257E65B81AAF734B00191995 /* en */,
+				257E65BA1AAF735D00191995 /* fr */,
+				257E65BB1AAF737700191995 /* pt */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		92C21CD11AAE757A0052ABE6 /* Debug */ = {
